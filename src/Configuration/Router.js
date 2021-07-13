@@ -20,7 +20,7 @@ const Rutas = () => {
         <div>
             <Router>
                 <Switch>
-                    <Route path={process.env.PUBLIC_URL + '/Login'} >
+                    <Route path="https://jdavid1002.github.io/Login" >
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
                     <Route path={process.env.PUBLIC_URL + '/Register'}  >
