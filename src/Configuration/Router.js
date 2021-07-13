@@ -13,20 +13,21 @@ import ShopppingCart from '../views/Admin/ShopppingCart';
 
 const Rutas = () => {
     const User = useUser()
+
     return (
         <div>
             <Router>
                 <Switch>
-                    <Route path="/Login">
+                    <Route path={process.env.PUBLIC_URL + '/Login'} >
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path="/Register">
+                    <Route path={process.env.PUBLIC_URL + '/Register'}  >
                         { User.hasEmitted ? <Dashboard /> : <Register /> }
                     </Route>
-                    <Route path="/Dashboard">
+                    <Route path={process.env.PUBLIC_URL + '/Dashboard'} >
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path="/ShopppingCart">
+                    <Route path={process.env.PUBLIC_URL + '/ShopppingCart'}>
                         { User.hasEmitted ? <ShopppingCart /> : <Login /> }
                     </Route>
                     <Route path="/">
