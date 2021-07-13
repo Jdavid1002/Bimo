@@ -16,7 +16,7 @@ const Rutas = () => {
 
     return (
         <div>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL} >
                 <Switch>
                     <Route path="/Login">
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
