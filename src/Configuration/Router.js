@@ -14,6 +14,8 @@ import ShopppingCart from '../views/Admin/ShopppingCart';
 const Rutas = () => {
     const User = useUser()
 
+    console.log(process.env.PUBLIC_URL + '/Login');
+
     return (
         <div>
             <Router>
