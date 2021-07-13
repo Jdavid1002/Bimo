@@ -7,8 +7,8 @@
     "functions.js": "/Bimo/static/js/functions.01d02698.chunk.js",
     "functions.js.map": "/Bimo/static/js/functions.01d02698.chunk.js.map",
     "main.css": "/Bimo/static/css/main.1c71a8c9.chunk.css",
-    "main.js": "/Bimo/static/js/main.b1f034ce.chunk.js",
-    "main.js.map": "/Bimo/static/js/main.b1f034ce.chunk.js.map",
+    "main.js": "/Bimo/static/js/main.bfc5cb4c.chunk.js",
+    "main.js.map": "/Bimo/static/js/main.bfc5cb4c.chunk.js.map",
     "messaging.js": "/Bimo/static/js/messaging.35e720db.chunk.js",
     "messaging.js.map": "/Bimo/static/js/messaging.35e720db.chunk.js.map",
     "performance.js": "/Bimo/static/js/performance.c58d6b61.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.2807b138.js",
     "static/js/8.0effe61f.chunk.js",
     "static/css/main.1c71a8c9.chunk.css",
-    "static/js/main.b1f034ce.chunk.js"
+    "static/js/main.bfc5cb4c.chunk.js"
   ]
 }
