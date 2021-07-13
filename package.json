@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.1.0",
-  "homepage" : "https://jdavid1002.github.io/",
+  "homepage" : "https://jdavid1002.github.io/Bimo/",
   "private": true,
   "dependencies": {
     "@firebase/auth": "^0.16.7",
