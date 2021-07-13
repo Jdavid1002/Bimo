@@ -6,7 +6,7 @@ const Menu = ({Usuario}) => {
     const firebase = useFirebaseApp();
     const Salir = async () => {
         await firebase.auth().signOut()
-        window.location.replace("/")
+        window.location.replace("/Bimo/#/")
     }
 
 

@@ -115,7 +115,7 @@ const DetailsPurchase = ({Productos, Total, User}) => {
                                         title : "Compras registradas correctamente",
                                         text : "Se registró correctamente tu compra."
                                     })
-                                    window.location.replace("/")
+                                    window.location.replace("/Bimo/#/")
                                 })
                             }else{
                                 Swal.fire({

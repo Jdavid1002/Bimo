@@ -44,7 +44,7 @@ const Welcome = () => {
 
     const agregarProductoCarrito = async (product) => {       
         if(User.data === null){
-            return window.location.replace("/Login")
+            return window.location.replace("/Bimo/#/Login")
         }else{
             let arregloCarrito = []
             db.firestore.collection("Carrito").get()

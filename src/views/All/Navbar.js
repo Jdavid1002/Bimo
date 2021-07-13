@@ -5,17 +5,17 @@ const Navbar = () => {
     const User = useUser()
     const agregarInterfazUser = () => {
         if(User.hasEmitted === true){
-            window.location.replace("/Dashboard")
+            window.location.replace("/Bimo/#/Dashboard")
         }else{
-            window.location.replace("/Login")
+            window.location.replace("/Bimo/#/Login")
         }
     }
 
     const agregarInterfazCarrito = () => {
         if(User.hasEmitted === true){
-            window.location.replace("/ShopppingCart")
+            window.location.replace("/Bimo/#/ShopppingCart")
         }else{
-            window.location.replace("/Login")
+            window.location.replace("/Bimo/#/Login")
         }
     }
 
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="mx-3" >
             <div className="row" >
                 <div className="col-md-4" >
-                    <h1 className="mt-3 text-monospace text-center pointer" onClick={()=> window.location.replace("/")} > Bimo </h1>
+                    <h1 className="mt-3 text-monospace text-center pointer" onClick={()=> window.location.replace("/Bimo/#/")} > Bimo </h1>
                 </div>
                 <div className="col-md-4" >
 
