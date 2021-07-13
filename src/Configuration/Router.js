@@ -14,23 +14,24 @@ import ShopppingCart from '../views/Admin/ShopppingCart';
 const Rutas = () => {
     const User = useUser()
 
+    console.log(process.env.PUBLIC_URL);
     return (
         <div>
             <Router basename={process.env.PUBLIC_URL} >
                 <Switch>
-                    <Route path="/Login">
+                    <Route path="/Bimo/Login">
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path="/Register">
+                    <Route path="/Bimo/Register">
                         { User.hasEmitted ? <Dashboard /> : <Register /> }
                     </Route>
-                    <Route path="/Dashboard">
+                    <Route path="/Bimo/Dashboard">
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path="/ShopppingCart">
+                    <Route path="/Bimo/ShopppingCart">
                         { User.hasEmitted ? <ShopppingCart /> : <Login /> }
                     </Route>
-                    <Route path="/">
+                    <Route path="/Bimo">
                         <Welcome />
                     </Route>
                 </Switch>
