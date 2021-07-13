@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
@@ -14,22 +14,20 @@ import ShopppingCart from '../views/Admin/ShopppingCart';
 const Rutas = () => {
     const User = useUser()
 
-    console.log(process.env.PUBLIC_URL + '/Login');
-
     return (
         <div>
             <Router>
                 <Switch>
-                    <Route path="https://jdavid1002.github.io/Login" >
+                    <Route path="/Login">
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path={process.env.PUBLIC_URL + '/Register'}  >
+                    <Route path="/Register">
                         { User.hasEmitted ? <Dashboard /> : <Register /> }
                     </Route>
-                    <Route path={process.env.PUBLIC_URL + '/Dashboard'} >
+                    <Route path="/Dashboard">
                         { User.hasEmitted ? <Dashboard /> : <Login /> }
                     </Route>
-                    <Route path={process.env.PUBLIC_URL + '/ShopppingCart'}>
+                    <Route path="/ShopppingCart">
                         { User.hasEmitted ? <ShopppingCart /> : <Login /> }
                     </Route>
                     <Route path="/">
