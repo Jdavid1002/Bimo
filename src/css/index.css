@@ -1,0 +1,113 @@
+.pointer{
+    cursor: pointer;
+}
+
+.bg-blue{
+    background: #3A3AFD;
+}
+.menu{
+    margin: 0px;
+}
+
+.options-menu{
+    border-right: #d3d3d3 solid 3px;
+}
+
+.options-menu:hover{
+    animation: opacity 1s;
+    border-right: #ee0979 solid 3px;
+}
+.options-menu:hover > svg {
+    color: #ee0979;
+}
+
+.text-time{
+    font-size: 15px;
+    color: #bbbbbb;
+}
+
+.opacidad:hover{
+    animation: 1s opacity;
+}
+
+.img-product-list{
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 99px;
+    min-width: 99px;
+}
+
+.img-card-product{
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 199px;
+    min-width: 199px;
+}
+
+.Eliminar{
+    display: none;
+}
+
+.card-product:hover > div{
+    display: block;
+    animation: 1s opacity;
+}
+
+.cargar{
+    margin: 20% 0%;
+}
+
+.bg-red-white{
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FD435B, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FD435B, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-red-white{
+    color: #ee0979;
+}
+
+.master-circle-one{
+    color: #bd1064;
+    position: relative;
+    transform: translateX(25px);
+}
+
+.master-circle-two{
+    color: #d6d6d6de;
+    z-index: 5;
+    position: relative;
+}
+
+.card-icon{
+    color: #d6d6d6de;
+}
+
+.box-card{
+    background: #bd1064;
+}
+
+.bg-black{
+    background: black;
+}
+
+.footer{
+    position: relative;
+    margin-top: 5%;
+}
+
+.img-banner{
+    width: 100%;
+    animation: 1s opacity;
+}
+
+
+@keyframes opacity {
+    100%{
+        opacity: 1;
+    }
+
+    0%{
+        opacity: 0;
+    }
+}
