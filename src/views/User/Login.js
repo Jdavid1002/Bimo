@@ -19,7 +19,7 @@ const Login = () => {
         if(Campos.pass !== "" && Campos.email !== "" && Campos.pass.length > 5){
             try {
                 await firebase.auth().signInWithEmailAndPassword(Campos.email , Campos.pass).then(res => {
-                    window.location.replace("/Dashboard")
+                    window.location.replace("/Bimo/#/Dashboard")
                 })
             } catch (error) {
                 if(error.message){
