@@ -78,11 +78,13 @@ const Register = () => {
 
     return (
         <div className="container mb-5" >
-            <div className="row shadow-lg mt-3 rounded" >
-                <div className="col-md-5 register-img start-right" >
-                    
+            <div className="row mt-3 rounded" >
+
+                <div className="col-md-5" >
+                    <img className="w-100" src="https://images.pexels.com/photos/1400249/pexels-photo-1400249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
                 </div>
-                <div className="col-md-7 bg-dark start-left" >
+                
+                <div className="col-md-7 bg-dark" >
                     <div className="p-5 m-2" >
                         <h5 className="m-2 h2 text-white" > ¡Bienvenido a la familia! </h5>
                         <h5 className="m-2 text-white" > Esperamos que te quedes en nuestra plataforma. </h5>
@@ -127,7 +129,7 @@ const Register = () => {
                             <button className="btn btn-outline-light m-2" > Entrar </button>
 
                         </form>
-                        <p className="text-muted mt-4" > ¿Ya tienes cuenta? Entra <a className="text-white" href="/Login" > aquí </a> </p>
+                        <p className="text-muted mt-4" > ¿Ya tienes cuenta? Entra <a className="text-white" href="/Bimo/#/Login" > aquí </a> </p>
                     </div>
                 </div>
             </div>

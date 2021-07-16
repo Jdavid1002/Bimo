@@ -2,7 +2,6 @@ import React,{useEffect, useState} from 'react'
 import db from '../../Configuration/Firebase'
 import Swal from 'sweetalert2'
 import {useUser} from 'reactfire';
-import Carrusel from './Carrusel';
 
 const Welcome = () => {
     const User = useUser()
@@ -97,7 +96,6 @@ const Welcome = () => {
 
     return (
         <div>
-            <Carrusel />
             <div className="container">
                 <div className="row" >
                     {Productos.map(data =>
