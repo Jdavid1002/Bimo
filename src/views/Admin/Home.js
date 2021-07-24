@@ -5,7 +5,7 @@ const Home = ({data}) => {
     return (
         <div className="p-5 row" >
             <div className="col-md-6" >
-                <h1 className="text-monospace mt-5 pt-3" > Bienvenido a casa</h1>
+                <h1 className="h3 mt-5 pt-3" > Bienvenido a casa</h1>
                 <hr />
                 <h1> {data.nombres}  </h1>
             </div>

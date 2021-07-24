@@ -58,7 +58,7 @@ const Login = () => {
                             <input  name="email" onChange={onChange} className="form-control input m-2" placeholder="Email" />
                             <h6 className=" m-2" > Contraseña </h6>
                             <input  name="pass"  onChange={onChange} className="form-control input m-2" placeholder="Password" type="password" />
-                            <button className="btn btn-outline-dark m-2 w-25 shadow" > Entrar </button>
+                            <button className="btn btn-outline-dark m-2 shadow" > Entrar </button>
                         </form>
                         
                         <p className="text-muted mt-4" > ¿No tienes cuenta? Registrate <a href="/Bimo/#/Register" > aquí </a> </p>
